@@ -1,0 +1,28 @@
+! name: No Wikipedia
+! description: Rerank results to remove pages / threads hosted on Wikipedia.
+! public: true
+! author: Me
+! avatar: 
+
+$discard,site=investor.wikipediainc.com
+$discard,site=wikipedia.at
+$discard,site=wikipedia.ca
+$discard,site=wikipedia.ch
+$discard,site=wikipedia.cl
+$discard,site=wikipedia.co.kr
+$discard,site=wikipedia.co.uk
+$discard,site=wikipedia.com
+$discard,site=wikipedia.com.au
+$discard,site=wikipedia.com.mx
+$discard,site=wikipedia.de
+$discard,site=wikipedia.dk
+$discard,site=wikipedia.es
+$discard,site=wikipedia.fr
+$discard,site=wikipedia.ie
+$discard,site=wikipedia.it
+$discard,site=wikipedia.nz
+$discard,site=wikipedia.ph
+$discard,site=wikipedia.pt
+$discard,site=wikipedia.ru
+$discard,site=wikipediacareers.com
+/wikipedia/$discard,site=wikipedia.com
